@@ -23,10 +23,12 @@ Analytics Engineering, and Business Intelligence.
 #CONTENTS:
 1. [Titanic Survival Prediction Using XGBoost](https://github.com/Thanuji-jpg/titanic)
 2. [Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](https://github.com/Thanuji-jpg/Smart-Entertainers/blob/main/Project%20PrismCX_ThanujaB.ipynb)
-3. [Instacart Market Basket Analysis & Reorder Prediction](https://github.com/Thanuji-jpg/InstaCart/blob/main/Predictions.ipynb)
-4. [Project NeuroSeg: Brain Tumor Segmentation from MRI Using Deep Learning](https://github.com/Thanuji-jpg/Project-NeuroSeg-Brain-Tumor-Segmentation-from-MRI-Using-Deep-learning)
-   
-5.[Project PulseHR: Employee Trend Analysis Using Tableau](https://github.com/Thanuji-jpg/Employee-trends-)
+3. [Project PulseHR: Employee Trend Analysis Using Tableau](https://github.com/Thanuji-jpg/Employee-trends-)
+4. [Project StreamIQ: Amazon Prime Content Analysis — Power BI Dashboard](https://github.com/Thanuji-jpg/business-intelligence-dashboard-suite)
+5. [Instacart Market Basket Analysis & Reorder Prediction](https://github.com/Thanuji-jpg/InstaCart/blob/main/Predictions.ipynb)
+6. [Project NeuroSeg: Brain Tumor Segmentation from MRI Using Deep Learning](https://github.com/Thanuji-jpg/Project-NeuroSeg-Brain-Tumor-Segmentation-from-MRI-Using-Deep-learning)   
+
+
 
 
 
