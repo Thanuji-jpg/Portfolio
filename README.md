@@ -22,6 +22,7 @@ Analytics Engineering, and Business Intelligence.
 
 #CONTENTS:
 1. [Titanic Survival Prediction Using XGBoost](titanic-notebook.ipynb)
+2. [Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](Project PrismCX_ThanujaB.ipynb)
 
 
 [Titanic Survival Prediction Using XGBoost](titanic-notebook.ipynb)
@@ -51,3 +52,25 @@ Tools: Python (pandas, NumPy, XGBoost, scikit-learn, seaborn, matplotlib)
 Recommendation
 The model demonstrates that survival on the Titanic was heavily influenced by gender and socioeconomic status, with first-class female passengers having the highest survival probability. For emergency preparedness practitioners, this analysis underscores the importance of equitable evacuation protocols that do not inadvertently disadvantage passengers based on class or location on the vessel. Future work could incorporate XGBoost Classifier (instead of Regressor) for more appropriate binary output, and hyperparameter tuning via grid search to further improve accuracy.
 
+[Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](Project PrismCX_ThanujaB.ipynb)
+Business Problem
+Smart home automation brands operate in a highly competitive IoT market where understanding customer behavior is critical to sustainable growth. Without a structured segmentation model, businesses risk applying generic marketing strategies that fail to address the distinct needs of new, loyal, at-risk, and disengaged customers. Project PrismCX addresses this gap by combining RFM analysis (Recency, Frequency, Monetary) with the CORE framework — Convert, Optimize, Retain, Exit — to deliver a precise, actionable classification of the customer base and surface it through an interactive Tableau dashboard.
+
+Technical Details
+Dataset: [Dataset](Original_Dataset(Smart Entertainer for customers).csv)— 2,200+ transaction records covering customer demographics (age group, gender, region), IoT device purchase history, and derived RFM metrics.
+Data Preparation:
+Cleaned and normalized smart device transaction data using Python (pandas).
+Derived Recency, Frequency, and Monetary values per customer from raw transaction records.
+Scoring & Tagging:
+Assigned R, F, and M scores on a 1–4 scale using quantile binning.
+Created behavioral tags: First-time vs. returning customer, top spender (top quartile), loyalty identifier (based on frequency + recency), and churn risk flag (inactivity-based).
+CORE Segmentation: Each customer was classified into one of four strategic segments:
+Convert — New or low-engagement customers requiring activation.
+Optimize — Moderate spenders with untapped growth potential.
+Retain — High-value, frequent buyers who drive core revenue.
+Exit — At-risk customers showing signs of disengagement.
+Tableau Dashboard [Dashboard](Customer_Segmentation.twbx): An interactive dashboard visualizes the full customer landscape with KPI tiles (total customers, average spend, churn rate, loyalty %), CORE segment distribution, RFM heatmap (recency vs. frequency), and churn risk overview. All components are interlinked and filterable by segment, region, age group, gender, and customer type.
+Tools: Python (pandas), Tableau, GitHub
+
+Recommendation
+Smart home brands should tailor their engagement strategy to each CORE segment: deploy targeted onboarding campaigns for Convert customers, offer upsell and cross-sell promotions to Optimize customers, invest in loyalty programs for the Retain group, and trigger re-engagement sequences for Exit customers before they fully disengage. The Tableau dashboard enables marketing and sales teams to monitor these segments in real time and adjust campaigns dynamically — eliminating the guesswork from customer lifecycle management and maximizing retention ROI across the IoT product portfolio.
