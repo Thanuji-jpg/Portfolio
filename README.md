@@ -74,7 +74,8 @@ Exit — At-risk customers showing signs of disengagement.
 
 Tableau Dashboard:
 
-[Dashboard](Customer_Segmentation.twbx): An interactive dashboard visualizes the full customer landscape with KPI tiles (total customers, average spend, churn rate, loyalty %), CORE segment distribution, RFM heatmap (recency vs. frequency), and churn risk overview. All components are interlinked and filterable by segment, region, age group, gender, and customer type.
+[Dashboard](https://github.com/Thanuji-jpg/Smart-Entertainers/blob/main/Customer_Segmentation.twbx): An interactive dashboard visualizes the full customer landscape with KPI tiles (total customers, average spend, churn rate, loyalty %), CORE segment distribution, RFM heatmap (recency vs. frequency), and churn risk overview. All components are interlinked and filterable by segment, region, age group, gender, and customer type.
+
 Tools: Python (pandas), Tableau, GitHub
 
 Recommendation
