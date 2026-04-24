@@ -133,7 +133,9 @@ Recommendation
 
 Deep learning-based segmentation models like U-Net demonstrate strong potential as a clinical decision-support tool — not to replace radiologists, but to accelerate their workflow and flag tumor boundaries as a second opinion. Hospitals and imaging centers handling high MRI volumes would benefit most from integrating such models into their diagnostic pipeline. Future improvements could include 3D volumetric segmentation across full MRI stacks rather than individual slices, and transfer learning from larger multi-institutional datasets to improve generalization across scanner types and patient demographics.
 
-Business Problem
+[Project PulseHR: Employee Trend Analysis Using Tableau](https://github.com/Thanuji-jpg/Employee-trends-)
+
+*Business Problem*
 
 Organizations with large workforces often struggle to identify early warning signs of attrition, disengagement, or imbalanced hiring — not because the data doesn't exist, but because it sits in spreadsheets without meaningful structure. This project analyzes 1,470 employee records to surface workforce trends across departments, education backgrounds, job satisfaction, demographics, and travel frequency. The goal is to give HR teams and business leaders a clear, visual picture of their people data so they can make proactive, evidence-based decisions around retention and hiring.
 
@@ -148,6 +150,7 @@ Travel Frequency: Over 1,000 employees travel rarely, while a smaller subset tra
 Notable Insight: Higher employee count does not consistently correlate with higher job satisfaction, suggesting headcount alone is not a reliable proxy for workforce health.
 
 Tableau [Dashboard](https://github.com/Thanuji-jpg/Employee-trends-/blob/main/Tableau%20Dashboard.png): An interactive dashboard with filters for department, gender, marital status, and travel frequency — enabling HR teams to drill into specific workforce segments dynamically.
+
 Tools: Tableau, CSV (cleaned in spreadsheet tools)
 
 Recommendation
