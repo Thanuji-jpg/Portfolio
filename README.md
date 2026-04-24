@@ -22,10 +22,10 @@ Analytics Engineering, and Business Intelligence.
 
 #CONTENTS:
 1. [Titanic Survival Prediction Using XGBoost](titanic-notebook.ipynb)
-2. [Smart-Entertainers](Project PrismCX_ThanujaB.ipynb)
+2. [Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](https://github.com/Thanuji-jpg/Smart-Entertainers/blob/main/Project%20PrismCX_ThanujaB.ipynb)
 
 
-[Titanic Survival Prediction Using XGBoost](titanic-notebook.ipynb)
+[Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](titanic-notebook.ipynb)
 
 Business Problem
 The sinking of the Titanic is one of the most infamous maritime disasters in history, resulting in the deaths of over 1,500 passengers and crew. Understanding which factors contributed to survival — such as passenger class, age, gender, and fare — can offer insights into human decision-making, social inequalities, and emergency response effectiveness. This project builds a machine learning model to predict passenger survival based on available demographic and ticket information.
