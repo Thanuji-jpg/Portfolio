@@ -155,5 +155,23 @@ Tableau [Dashboard](https://github.com/Thanuji-jpg/Employee-trends-/blob/main/Ta
 
 Tools: Tableau, CSV (cleaned in spreadsheet tools)
 
+[Project StreamIQ: Amazon Prime Content Analysis — Power BI Dashboard](https://github.com/Thanuji-jpg/business-intelligence-dashboard-suite)
+
+Business Problem
+
+Streaming platforms like Amazon Prime Video manage catalogues of thousands of titles across genres, countries, and release years — yet content strategy decisions are often made without a clear, consolidated view of what the library actually looks like. This project builds an end-to-end Power BI dashboard using Amazon Prime's publicly available titles dataset to answer key content questions: How is the library split between movies and TV shows? Which genres and ratings dominate? How has content volume grown over time? The goal is to demonstrate how BI tools can turn raw catalogue data into actionable streaming strategy insights.
+
+Technical Details
+Dataset: Amazon Prime Titles from Kaggle — includes title name, type (movie/TV show), genre, rating, release year, country, and duration.
+End-to-End BI Workflow:
+Data Cleaning: Imported raw dataset into Power Query; handled missing values and standardized column formats.
+Data Modelling: Built a relational data model to support cross-filtering and dynamic aggregation across visuals.
+DAX Measures: Created key calculated measures for KPI tiles, content ratios, and trend analysis.
+Dashboard Design: Developed interactive visuals and slicers enabling drill-down by genre, rating, country, and content type.
+Key Insights Covered:
+Distribution of Movies vs. TV Shows across the full catalogue.
+Content release trends by year — highlighting periods of rapid library growth.
+Genre breakdown and rating dist
+
 Recommendation
 HR teams should prioritize two focus areas based on this analysis: first, investigate job satisfaction drivers in departments with high headcount but lower satisfaction scores — large teams with disengaged employees are a leading indicator of future attrition. Second, examine the gender distribution gap and travel frequency patterns as part of a broader diversity and retention review. Integrating attrition labels with satisfaction and travel data in a predictive model would be a strong next step, allowing the organization to shift from descriptive reporting to proactive workforce planning.
