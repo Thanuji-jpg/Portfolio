@@ -23,9 +23,14 @@ Analytics Engineering, and Business Intelligence.
 #CONTENTS:
 1. [Titanic Survival Prediction Using XGBoost](https://github.com/Thanuji-jpg/titanic)
 2. [Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](https://github.com/Thanuji-jpg/Smart-Entertainers/blob/main/Project%20PrismCX_ThanujaB.ipynb)
+3. [Instacart Market Basket Analysis & Reorder Prediction](https://github.com/Thanuji-jpg/InstaCart/blob/main/Predictions.ipynb)
+4. [Project NeuroSeg: Brain Tumor Segmentation from MRI Using Deep Learning](https://github.com/Thanuji-jpg/Project-NeuroSeg-Brain-Tumor-Segmentation-from-MRI-Using-Deep-learning)
+   
+5.[Project PulseHR: Employee Trend Analysis Using Tableau](https://github.com/Thanuji-jpg/Employee-trends-)
 
 
-[Titanic Survival Prediction Using XGBoost](titanic-notebook.ipynb)
+
+[Titanic Survival Prediction Using XGBoost](https://github.com/Thanuji-jpg/titanic)
 
 Business Problem
 The sinking of the Titanic is one of the most infamous maritime disasters in history, resulting in the deaths of over 1,500 passengers and crew. Understanding which factors contributed to survival — such as passenger class, age, gender, and fare — can offer insights into human decision-making, social inequalities, and emergency response effectiveness. This project builds a machine learning model to predict passenger survival based on available demographic and ticket information.
@@ -80,3 +85,70 @@ Tools: Python (pandas), Tableau, GitHub
 
 Recommendation
 Smart home brands should tailor their engagement strategy to each CORE segment: deploy targeted onboarding campaigns for Convert customers, offer upsell and cross-sell promotions to Optimize customers, invest in loyalty programs for the Retain group, and trigger re-engagement sequences for Exit customers before they fully disengage. The Tableau dashboard enables marketing and sales teams to monitor these segments in real time and adjust campaigns dynamically — eliminating the guesswork from customer lifecycle management and maximizing retention ROI across the IoT product portfolio.
+
+
+[Instacart Market Basket Analysis & Reorder Prediction](https://github.com/Thanuji-jpg/InstaCart/blob/main/Predictions.ipynb)
+
+Business Problem
+E-commerce grocery platforms like Instacart generate millions of transactions daily, creating a rich opportunity to understand and anticipate customer purchasing behavior. Predicting which products a customer is likely to reorder enables businesses to improve inventory planning, personalize product recommendations, and optimize marketing spend. This project analyzes Instacart's publicly available order dataset to uncover behavioral patterns and build machine learning models that accurately forecast product reorders.
+
+Technical Details
+[Dataset](: Instacart Market Basket Analysis from Kaggle — includes customer orders, products, departments, and aisle information across multiple order histories.
+Phase 1 — Exploratory Data Analysis (Data Exploration.ipynb):
+Examined dataset structure across orders, products, and user tables.
+Handled missing values and identified data quality issues.
+Analyzed purchasing patterns: order frequency, time-of-day trends, and reorder rates by department and aisle.
+Visualized key distributions using histograms, bar plots, and heatmaps.
+Phase 2 — Predictive Modeling (Predictions.ipynb):
+Engineered features capturing user-product interactions, reorder ratios, days since prior order, and cart position behavior.
+Trained and evaluated three classification models:
+Logistic Regression — baseline model for interpretability.
+Random Forest Classifier — captures non-linear feature interactions.
+XGBoost Classifier — best-performing model based on AUC and F1 score.
+Compared model performance using accuracy, F1 score, and AUC-ROC metrics.
+Generated final reorder predictions on held-out test data.
+Tools: Python (pandas, NumPy, scikit-learn, XGBoost, matplotlib, seaborn), Jupyter Notebook
+
+Recommendation
+Instacart and similar grocery platforms should leverage reorder prediction models to drive two core strategies: proactive replenishment — surfacing likely-to-reorder items at the top of a customer's next session — and targeted promotions for products with high reorder probability but recent drop-off in purchase frequency. XGBoost outperformed other models in this analysis, and further gains could be achieved by incorporating time-series features such as seasonality and rolling reorder windows. Integrating such a model into a real-time recommendation engine could meaningfully increase average order value and customer retention.
+
+Project NeuroSeg: Brain Tumor Segmentation from MRI Using Deep Learning](https://github.com/Thanuji-jpg/Project-NeuroSeg-Brain-Tumor-Segmentation-from-MRI-Using-Deep-learning)
+
+Business Problem
+Accurate detection and segmentation of brain tumors from MRI scans is one of the most critical — and most challenging — tasks in medical imaging. Manual segmentation by radiologists is time-consuming, prone to inter-observer variability, and difficult to scale. This project applies deep learning to automate the segmentation of low-grade gliomas (LGG) from FLAIR MRI images, aiming to support clinicians with faster, more consistent tumor boundary detection and improve diagnostic outcomes.
+
+Technical Details
+Dataset: LGG MRI Segmentation dataset from Kaggle — FLAIR sequence brain MRI images with corresponding ground-truth tumor masks for low-grade glioma patients.
+Task: Semantic image segmentation — predicting a pixel-wise binary mask identifying tumor regions within each MRI slice.
+Deep Learning Architecture: U-Net — an encoder-decoder convolutional neural network designed specifically for biomedical image segmentation, preserving spatial detail through skip connections.
+Key Steps:
+Preprocessed FLAIR images: resizing, normalization, and augmentation to improve model generalization.
+Split dataset into training, validation, and test sets.
+Trained the segmentation model and evaluated using Dice coefficient and IoU (Intersection over Union) — standard metrics for medical segmentation tasks.
+Visualized predicted masks against ground-truth annotations to assess qualitative performance.
+
+Tools: Python, TensorFlow / Keras, NumPy, OpenCV, matplotlib
+
+Recommendation
+
+Deep learning-based segmentation models like U-Net demonstrate strong potential as a clinical decision-support tool — not to replace radiologists, but to accelerate their workflow and flag tumor boundaries as a second opinion. Hospitals and imaging centers handling high MRI volumes would benefit most from integrating such models into their diagnostic pipeline. Future improvements could include 3D volumetric segmentation across full MRI stacks rather than individual slices, and transfer learning from larger multi-institutional datasets to improve generalization across scanner types and patient demographics.
+
+Business Problem
+
+Organizations with large workforces often struggle to identify early warning signs of attrition, disengagement, or imbalanced hiring — not because the data doesn't exist, but because it sits in spreadsheets without meaningful structure. This project analyzes 1,470 employee records to surface workforce trends across departments, education backgrounds, job satisfaction, demographics, and travel frequency. The goal is to give HR teams and business leaders a clear, visual picture of their people data so they can make proactive, evidence-based decisions around retention and hiring.
+
+Technical Details
+Dataset: Analyzing Employee Trends.csv — 1,470 employee records with attributes including department, education field, gender, job satisfaction score, marital status, overtime, business travel frequency, and attrition status.
+Key Findings from the Dashboard:
+Department Distribution: R&D accounts for the largest share of employees, followed by Sales; HR has the smallest headcount — a potential resource gap worth monitoring.
+Education & Job Satisfaction: Life Sciences employees report the highest average job satisfaction (~2.80), followed by Medical (~2.74), suggesting education field may influence workplace engagement.
+Degree Type: The majority of employees hold Bachelor's or Master's degrees, with smaller representation from High School and Associate's-level qualifications.
+Gender Distribution: Slightly more male employees (882) than female (588) — a gap that HR may want to address through targeted hiring initiatives.
+Travel Frequency: Over 1,000 employees travel rarely, while a smaller subset travels frequently — frequent travel could be a contributing factor to attrition risk.
+Notable Insight: Higher employee count does not consistently correlate with higher job satisfaction, suggesting headcount alone is not a reliable proxy for workforce health.
+
+Tableau [Dashboard](https://github.com/Thanuji-jpg/Employee-trends-/blob/main/Tableau%20Dashboard.png): An interactive dashboard with filters for department, gender, marital status, and travel frequency — enabling HR teams to drill into specific workforce segments dynamically.
+Tools: Tableau, CSV (cleaned in spreadsheet tools)
+
+Recommendation
+HR teams should prioritize two focus areas based on this analysis: first, investigate job satisfaction drivers in departments with high headcount but lower satisfaction scores — large teams with disengaged employees are a leading indicator of future attrition. Second, examine the gender distribution gap and travel frequency patterns as part of a broader diversity and retention review. Integrating attrition labels with satisfaction and travel data in a predictive model would be a strong next step, allowing the organization to shift from descriptive reporting to proactive workforce planning.
