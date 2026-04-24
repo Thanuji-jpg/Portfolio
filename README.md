@@ -138,7 +138,7 @@ Business Problem
 Organizations with large workforces often struggle to identify early warning signs of attrition, disengagement, or imbalanced hiring — not because the data doesn't exist, but because it sits in spreadsheets without meaningful structure. This project analyzes 1,470 employee records to surface workforce trends across departments, education backgrounds, job satisfaction, demographics, and travel frequency. The goal is to give HR teams and business leaders a clear, visual picture of their people data so they can make proactive, evidence-based decisions around retention and hiring.
 
 Technical Details
-Dataset: Analyzing Employee Trends.csv — 1,470 employee records with attributes including department, education field, gender, job satisfaction score, marital status, overtime, business travel frequency, and attrition status.
+[Dataset](https://github.com/Thanuji-jpg/Employee-trends-/blob/main/Analyzing%20Employee%20Trends.csv) — 1,470 employee records with attributes including department, education field, gender, job satisfaction score, marital status, overtime, business travel frequency, and attrition status.
 Key Findings from the Dashboard:
 Department Distribution: R&D accounts for the largest share of employees, followed by Sales; HR has the smallest headcount — a potential resource gap worth monitoring.
 Education & Job Satisfaction: Life Sciences employees report the highest average job satisfaction (~2.80), followed by Medical (~2.74), suggesting education field may influence workplace engagement.
