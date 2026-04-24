@@ -30,7 +30,8 @@ Business Problem
 The sinking of the Titanic is one of the most infamous maritime disasters in history, resulting in the deaths of over 1,500 passengers and crew. Understanding which factors contributed to survival — such as passenger class, age, gender, and fare — can offer insights into human decision-making, social inequalities, and emergency response effectiveness. This project builds a machine learning model to predict passenger survival based on available demographic and ticket information.
 
 Technical Details
-[Dataset](test.csv)(train.csv) : Titanic dataset from Kaggle — 891 training records with features including passenger class, sex, age, fare, embarkation port, and cabin information.
+[Dataset](test.csv)
+[Dataset](train.csv) : Titanic dataset from Kaggle — 891 training records with features including passenger class, sex, age, fare, embarkation port, and cabin information.
 Data Preprocessing:
 Handled missing values: median imputation for Age, mode imputation for Embarked, dropped Cabin due to high missingness.
 Encoded categorical features: Sex and Embarked converted using label encoding.
