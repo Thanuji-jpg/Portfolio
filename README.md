@@ -22,7 +22,7 @@ Analytics Engineering, and Business Intelligence.
 
 #CONTENTS:
 1. [Titanic Survival Prediction Using XGBoost](titanic-notebook.ipynb)
-2. [Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](Project PrismCX_ThanujaB.ipynb)
+2. [Smart-Entertainers](Project PrismCX_ThanujaB.ipynb)
 
 
 [Titanic Survival Prediction Using XGBoost](titanic-notebook.ipynb)
