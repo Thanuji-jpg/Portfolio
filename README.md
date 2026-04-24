@@ -21,7 +21,7 @@ I am currently open to roles in Data Analytics, Data Science,
 Analytics Engineering, and Business Intelligence.
 
 #CONTENTS:
-1. [Titanic Survival Prediction Using XGBoost](titanic-notebook.ipynb)
+1. [Titanic Survival Prediction Using XGBoost](https://github.com/Thanuji-jpg/titanic)
 2. [Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](https://github.com/Thanuji-jpg/Smart-Entertainers/blob/main/Project%20PrismCX_ThanujaB.ipynb)
 
 
