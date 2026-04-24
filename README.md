@@ -54,6 +54,7 @@ The model demonstrates that survival on the Titanic was heavily influenced by ge
 
 
 [Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](https://github.com/Thanuji-jpg/Smart-Entertainers/blob/main/Project%20PrismCX_ThanujaB.ipynb)
+
 Business Problem
 Smart home automation brands operate in a highly competitive IoT market where understanding customer behavior is critical to sustainable growth. Without a structured segmentation model, businesses risk applying generic marketing strategies that fail to address the distinct needs of new, loyal, at-risk, and disengaged customers. Project PrismCX addresses this gap by combining RFM analysis (Recency, Frequency, Monetary) with the CORE framework — Convert, Optimize, Retain, Exit — to deliver a precise, actionable classification of the customer base and surface it through an interactive Tableau dashboard.
 
@@ -71,7 +72,8 @@ Optimize — Moderate spenders with untapped growth potential.
 Retain — High-value, frequent buyers who drive core revenue.
 Exit — At-risk customers showing signs of disengagement.
 
-Tableau Dashboard 
+Tableau Dashboard:
+
 [Dashboard](Customer_Segmentation.twbx): An interactive dashboard visualizes the full customer landscape with KPI tiles (total customers, average spend, churn rate, loyalty %), CORE segment distribution, RFM heatmap (recency vs. frequency), and churn risk overview. All components are interlinked and filterable by segment, region, age group, gender, and customer type.
 Tools: Python (pandas), Tableau, GitHub
 
