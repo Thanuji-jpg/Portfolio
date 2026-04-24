@@ -53,6 +53,7 @@ Recommendation
 The model demonstrates that survival on the Titanic was heavily influenced by gender and socioeconomic status, with first-class female passengers having the highest survival probability. For emergency preparedness practitioners, this analysis underscores the importance of equitable evacuation protocols that do not inadvertently disadvantage passengers based on class or location on the vessel. Future work could incorporate XGBoost Classifier (instead of Regressor) for more appropriate binary output, and hyperparameter tuning via grid search to further improve accuracy.
 
 [Project PrismCX: Customer Segmentation for IoT Smart Home Solutions](Project PrismCX_ThanujaB.ipynb)
+
 Business Problem
 Smart home automation brands operate in a highly competitive IoT market where understanding customer behavior is critical to sustainable growth. Without a structured segmentation model, businesses risk applying generic marketing strategies that fail to address the distinct needs of new, loyal, at-risk, and disengaged customers. Project PrismCX addresses this gap by combining RFM analysis (Recency, Frequency, Monetary) with the CORE framework — Convert, Optimize, Retain, Exit — to deliver a precise, actionable classification of the customer base and surface it through an interactive Tableau dashboard.
 
